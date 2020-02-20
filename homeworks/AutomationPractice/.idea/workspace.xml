@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed1dd487-5e1f-4aec-8865-0c32bd9c8309" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XwAmqDoPhn79EMjqCipKH6LSNE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="TestNG.TestVararg">
+    <configuration name="CheckEmailHappyPath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckEmailHappyPath" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckEmailUnhappyPath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckEmailUnhappyPath" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVararg" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestVararg" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UiTestsCases" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UiTestsCases" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestVararg" />
+        <item itemvalue="TestNG.CheckEmailUnhappyPath" />
+        <item itemvalue="TestNG.CheckEmailHappyPath" />
+        <item itemvalue="TestNG.UiTestsCases" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed1dd487-5e1f-4aec-8865-0c32bd9c8309" name="Default Changelist" comment="" />
+      <created>1581946944991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581946944991</updated>
+      <workItem from="1581946950327" duration="448000" />
+      <workItem from="1582102975677" duration="3127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1793" height="259" key="GridCell.Tab.0.bottom" timestamp="1582113732718">
+      <screen x="67" y="37" width="1853" height="1043" />
+    </state>
+    <state width="1793" height="259" key="GridCell.Tab.0.bottom/67.37.1853.1043@67.37.1853.1043" timestamp="1582113732718" />
+    <state width="1793" height="259" key="GridCell.Tab.0.center" timestamp="1582113732717">
+      <screen x="67" y="37" width="1853" height="1043" />
+    </state>
+    <state width="1793" height="259" key="GridCell.Tab.0.center/67.37.1853.1043@67.37.1853.1043" timestamp="1582113732717" />
+    <state width="1793" height="259" key="GridCell.Tab.0.left" timestamp="1582113732717">
+      <screen x="67" y="37" width="1853" height="1043" />
+    </state>
+    <state width="1793" height="259" key="GridCell.Tab.0.left/67.37.1853.1043@67.37.1853.1043" timestamp="1582113732717" />
+    <state width="1793" height="259" key="GridCell.Tab.0.right" timestamp="1582113732718">
+      <screen x="67" y="37" width="1853" height="1043" />
+    </state>
+    <state width="1793" height="259" key="GridCell.Tab.0.right/67.37.1853.1043@67.37.1853.1043" timestamp="1582113732718" />
+    <state x="351" y="105" key="SettingsEditor" timestamp="1581947401309">
+      <screen x="67" y="37" width="1853" height="1043" />
+    </state>
+    <state x="351" y="105" key="SettingsEditor/67.37.1853.1043@67.37.1853.1043" timestamp="1581947401309" />
+    <state x="548" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1582102971565">
+      <screen x="67" y="37" width="1853" height="1043" />
+    </state>
+    <state x="548" y="346" key="com.intellij.ide.util.TipDialog/67.37.1853.1043@67.37.1853.1043" timestamp="1582102971565" />
+    <state x="426" y="154" width="1135" height="806" key="find.popup" timestamp="1582113496500">
+      <screen x="67" y="37" width="1853" height="1043" />
+    </state>
+    <state x="426" y="154" width="1135" height="806" key="find.popup/67.37.1853.1043@67.37.1853.1043" timestamp="1582113496500" />
+  </component>
+</project>
