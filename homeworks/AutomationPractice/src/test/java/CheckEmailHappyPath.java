@@ -1,21 +1,19 @@
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import utils.Email;
 
 public class CheckEmailHappyPath {
-    @DataProvider(name="Emails")
-    public static Object[] credentials() {
-        return new Object[] {   "nikitiuss@gmail.com",
-                                "rag@mail.ru",
-                                "pivo21@23.adddd",
-                                "!_123456789012345678@23213.adddd",
-                                "HAPPY_EMAIL@CO2M.com",
-                                "dD3_!@fA8.dd"};
+    @DataProvider(name="EmailsForHappyPath")
+    public static Object[] happyPathEmails() {
+        return new Object[] {
+                "Rag@Ma.ru",
+                "!_123456789012345678@23213.adddd",
+        };
     }
 
-    @Test(dataProvider="Emails")
-    public void test(String emailStr) {
-        Assert.assertTrue(Email.isEmailCorrect(emailStr));
+    @Test(dataProvider="EmailsForHappyPath")
+    public void testEmailFormatHappyPath(String email) {
+        boolean actualResult = Email.isEmailCorrect(email);
+        Assert.assertTrue(actualResult,"Email format is not correct: " + email);
     }
 }

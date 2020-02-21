@@ -1,5 +1,3 @@
-package utils;
-
 public class VarargExample {
 
     public int sumNumber(int ... args){
