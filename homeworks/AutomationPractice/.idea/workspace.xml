@@ -3,12 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="ed1dd487-5e1f-4aec-8865-0c32bd9c8309" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckEmailHappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckEmailHappyPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AutomationPractice" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -47,45 +49,91 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckEmailHappyPath">
-    <configuration name="CheckEmailHappyPath" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CheckFormyButtons.clickOnAllButtons">
+    <configuration name="CheckDropdownMenu.verificateRedirectionLinksMatchOnesSpecified" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckEmailHappyPath" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumBaseApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumBaseApi" />
+      <option name="MAIN_CLASS_NAME" value="seleniumBaseApi.CheckDropdownMenu" />
+      <option name="METHOD_NAME" value="verificateRedirectionLinksMatchOnesSpecified" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckEmailUnhappyPath" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckDropdownMenu.verifyRedirectionLinksMatchOnesSpecified" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckEmailUnhappyPath" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumBaseApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumBaseApi" />
+      <option name="MAIN_CLASS_NAME" value="seleniumBaseApi.CheckDropdownMenu" />
+      <option name="METHOD_NAME" value="verifyRedirectionLinksMatchOnesSpecified" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVararg" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckFormyButtons.clickOnAllButtons" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestVararg" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumBaseApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumBaseApi" />
+      <option name="MAIN_CLASS_NAME" value="seleniumBaseApi.CheckFormyButtons" />
+      <option name="METHOD_NAME" value="clickOnAllButtons" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UiTestsCases" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckFormyCheckboxes.clickOnAllCheckboxes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UiTestsCases" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumBaseApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumBaseApi" />
+      <option name="MAIN_CLASS_NAME" value="seleniumBaseApi.CheckFormyCheckboxes" />
+      <option name="METHOD_NAME" value="clickOnAllCheckboxes" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckFormyCheckboxes.clickOnAllCheckboxesXpath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumBaseApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumBaseApi" />
+      <option name="MAIN_CLASS_NAME" value="seleniumBaseApi.CheckFormyCheckboxes" />
+      <option name="METHOD_NAME" value="clickOnAllCheckboxesXpath" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -94,10 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckEmailHappyPath" />
-        <item itemvalue="TestNG.CheckEmailUnhappyPath" />
-        <item itemvalue="TestNG.TestVararg" />
-        <item itemvalue="TestNG.UiTestsCases" />
+        <item itemvalue="TestNG.CheckFormyButtons.clickOnAllButtons" />
+        <item itemvalue="TestNG.CheckDropdownMenu.verifyRedirectionLinksMatchOnesSpecified" />
+        <item itemvalue="TestNG.CheckDropdownMenu.verificateRedirectionLinksMatchOnesSpecified" />
+        <item itemvalue="TestNG.CheckFormyCheckboxes.clickOnAllCheckboxesXpath" />
+        <item itemvalue="TestNG.CheckFormyCheckboxes.clickOnAllCheckboxes" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +163,8 @@
       <workItem from="1581946950327" duration="448000" />
       <workItem from="1582102975677" duration="3127000" />
       <workItem from="1582297568179" duration="1414000" />
+      <workItem from="1582466531781" duration="69000" />
+      <workItem from="1582540266541" duration="6656000" />
     </task>
     <servers />
   </component>
@@ -125,33 +176,37 @@
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
     <state x="673" y="388" width="641" height="354" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.37.1853.1043@67.37.1853.1043" timestamp="1582297597217" />
-    <state width="1793" height="259" key="GridCell.Tab.0.bottom" timestamp="1582298279716">
+    <state width="1793" height="259" key="GridCell.Tab.0.bottom" timestamp="1582546908806">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="259" key="GridCell.Tab.0.bottom/67.37.1853.1043@67.37.1853.1043" timestamp="1582298279716" />
-    <state width="1793" height="259" key="GridCell.Tab.0.center" timestamp="1582298279715">
+    <state width="1793" height="259" key="GridCell.Tab.0.bottom/67.37.1853.1043@67.37.1853.1043" timestamp="1582546908806" />
+    <state width="1793" height="259" key="GridCell.Tab.0.center" timestamp="1582546908805">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="259" key="GridCell.Tab.0.center/67.37.1853.1043@67.37.1853.1043" timestamp="1582298279715" />
-    <state width="1793" height="259" key="GridCell.Tab.0.left" timestamp="1582298279714">
+    <state width="1793" height="259" key="GridCell.Tab.0.center/67.37.1853.1043@67.37.1853.1043" timestamp="1582546908805" />
+    <state width="1793" height="259" key="GridCell.Tab.0.left" timestamp="1582546908804">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="259" key="GridCell.Tab.0.left/67.37.1853.1043@67.37.1853.1043" timestamp="1582298279714" />
-    <state width="1793" height="259" key="GridCell.Tab.0.right" timestamp="1582298279716">
+    <state width="1793" height="259" key="GridCell.Tab.0.left/67.37.1853.1043@67.37.1853.1043" timestamp="1582546908804" />
+    <state width="1793" height="259" key="GridCell.Tab.0.right" timestamp="1582546908806">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="259" key="GridCell.Tab.0.right/67.37.1853.1043@67.37.1853.1043" timestamp="1582298279716" />
+    <state width="1793" height="259" key="GridCell.Tab.0.right/67.37.1853.1043@67.37.1853.1043" timestamp="1582546908806" />
     <state x="351" y="105" key="SettingsEditor" timestamp="1581947401309">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
     <state x="351" y="105" key="SettingsEditor/67.37.1853.1043@67.37.1853.1043" timestamp="1581947401309" />
-    <state x="548" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1582297568176">
+    <state x="548" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1582466527797">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state x="548" y="346" key="com.intellij.ide.util.TipDialog/67.37.1853.1043@67.37.1853.1043" timestamp="1582297568176" />
+    <state x="548" y="346" key="com.intellij.ide.util.TipDialog/67.37.1853.1043@67.37.1853.1043" timestamp="1582466527797" />
     <state x="426" y="154" width="1135" height="806" key="find.popup" timestamp="1582113496500">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
     <state x="426" y="154" width="1135" height="806" key="find.popup/67.37.1853.1043@67.37.1853.1043" timestamp="1582113496500" />
+    <state x="67" y="203" width="1843" height="709" key="new project wizard" timestamp="1582466599722">
+      <screen x="67" y="37" width="1853" height="1043" />
+    </state>
+    <state x="67" y="203" width="1843" height="709" key="new project wizard/67.37.1853.1043@67.37.1853.1043" timestamp="1582466599722" />
   </component>
 </project>
