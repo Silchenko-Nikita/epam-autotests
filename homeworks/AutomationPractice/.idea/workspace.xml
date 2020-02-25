@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ed1dd487-5e1f-4aec-8865-0c32bd9c8309" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/CheckDropdownMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/CheckFormyDropdownMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckDropdownMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckFormyButtons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckFormyButtons.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,18 +53,35 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckFormyButtons.clickOnAllButtons">
-    <configuration name="CheckDropdownMenu.verificateRedirectionLinksMatchOnesSpecified" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CheckBbcFootballMatchesScore.checkMainArticleHeadlineText">
+    <configuration name="CheckBbcArticlesNewsHeadlineTexts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumBaseApi.*" />
+          <option name="PATTERN" value="variant3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumBaseApi" />
-      <option name="MAIN_CLASS_NAME" value="seleniumBaseApi.CheckDropdownMenu" />
-      <option name="METHOD_NAME" value="verificateRedirectionLinksMatchOnesSpecified" />
+      <option name="PACKAGE_NAME" value="variant3" />
+      <option name="MAIN_CLASS_NAME" value="variant3.CheckBbcArticlesNewsHeadlineTexts" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckBbcArticlesNewsHeadlineTexts.checkMainArticleHeadlineText" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="variant3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="variant3" />
+      <option name="MAIN_CLASS_NAME" value="variant3.CheckBbcArticlesNewsHeadlineTexts" />
+      <option name="METHOD_NAME" value="checkMainArticleHeadlineText" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -68,17 +89,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckDropdownMenu.verifyRedirectionLinksMatchOnesSpecified" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckBbcArticlesNewsHeadlineTexts.checkSecondaryArticlesHeadlinesText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumBaseApi.*" />
+          <option name="PATTERN" value="variant3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumBaseApi" />
-      <option name="MAIN_CLASS_NAME" value="seleniumBaseApi.CheckDropdownMenu" />
-      <option name="METHOD_NAME" value="verifyRedirectionLinksMatchOnesSpecified" />
+      <option name="PACKAGE_NAME" value="variant3" />
+      <option name="MAIN_CLASS_NAME" value="variant3.CheckBbcArticlesNewsHeadlineTexts" />
+      <option name="METHOD_NAME" value="checkSecondaryArticlesHeadlinesText" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -86,53 +107,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckFormyButtons.clickOnAllButtons" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckBbcFootballMatchesScore" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumBaseApi.*" />
+          <option name="PATTERN" value="variant3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumBaseApi" />
-      <option name="MAIN_CLASS_NAME" value="seleniumBaseApi.CheckFormyButtons" />
-      <option name="METHOD_NAME" value="clickOnAllButtons" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="variant3" />
+      <option name="MAIN_CLASS_NAME" value="variant3.CheckBbcFootballMatchesScore" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckFormyCheckboxes.clickOnAllCheckboxes" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckBbcFootballMatchesScore.checkMainArticleHeadlineText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumBaseApi.*" />
+          <option name="PATTERN" value="variant3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumBaseApi" />
-      <option name="MAIN_CLASS_NAME" value="seleniumBaseApi.CheckFormyCheckboxes" />
-      <option name="METHOD_NAME" value="clickOnAllCheckboxes" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckFormyCheckboxes.clickOnAllCheckboxesXpath" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumBaseApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seleniumBaseApi" />
-      <option name="MAIN_CLASS_NAME" value="seleniumBaseApi.CheckFormyCheckboxes" />
-      <option name="METHOD_NAME" value="clickOnAllCheckboxesXpath" />
+      <option name="PACKAGE_NAME" value="variant3" />
+      <option name="MAIN_CLASS_NAME" value="variant3.CheckBbcFootballMatchesScore" />
+      <option name="METHOD_NAME" value="checkMainArticleHeadlineText" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckFormyButtons.clickOnAllButtons" />
-        <item itemvalue="TestNG.CheckDropdownMenu.verifyRedirectionLinksMatchOnesSpecified" />
-        <item itemvalue="TestNG.CheckDropdownMenu.verificateRedirectionLinksMatchOnesSpecified" />
-        <item itemvalue="TestNG.CheckFormyCheckboxes.clickOnAllCheckboxesXpath" />
-        <item itemvalue="TestNG.CheckFormyCheckboxes.clickOnAllCheckboxes" />
+        <item itemvalue="TestNG.CheckBbcFootballMatchesScore.checkMainArticleHeadlineText" />
+        <item itemvalue="TestNG.CheckBbcFootballMatchesScore" />
+        <item itemvalue="TestNG.CheckBbcArticlesNewsHeadlineTexts.checkSecondaryArticlesHeadlinesText" />
+        <item itemvalue="TestNG.CheckBbcArticlesNewsHeadlineTexts" />
+        <item itemvalue="TestNG.CheckBbcArticlesNewsHeadlineTexts.checkMainArticleHeadlineText" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +167,7 @@
       <workItem from="1582297568179" duration="1414000" />
       <workItem from="1582466531781" duration="69000" />
       <workItem from="1582540266541" duration="6656000" />
+      <workItem from="1582631789183" duration="3354000" />
     </task>
     <servers />
   </component>
@@ -176,30 +179,30 @@
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
     <state x="673" y="388" width="641" height="354" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.37.1853.1043@67.37.1853.1043" timestamp="1582297597217" />
-    <state width="1793" height="259" key="GridCell.Tab.0.bottom" timestamp="1582546908806">
+    <state width="1793" height="257" key="GridCell.Tab.0.bottom" timestamp="1582635148327">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="259" key="GridCell.Tab.0.bottom/67.37.1853.1043@67.37.1853.1043" timestamp="1582546908806" />
-    <state width="1793" height="259" key="GridCell.Tab.0.center" timestamp="1582546908805">
+    <state width="1793" height="257" key="GridCell.Tab.0.bottom/67.37.1853.1043@67.37.1853.1043" timestamp="1582635148327" />
+    <state width="1793" height="257" key="GridCell.Tab.0.center" timestamp="1582635148327">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="259" key="GridCell.Tab.0.center/67.37.1853.1043@67.37.1853.1043" timestamp="1582546908805" />
-    <state width="1793" height="259" key="GridCell.Tab.0.left" timestamp="1582546908804">
+    <state width="1793" height="257" key="GridCell.Tab.0.center/67.37.1853.1043@67.37.1853.1043" timestamp="1582635148327" />
+    <state width="1793" height="257" key="GridCell.Tab.0.left" timestamp="1582635148327">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="259" key="GridCell.Tab.0.left/67.37.1853.1043@67.37.1853.1043" timestamp="1582546908804" />
-    <state width="1793" height="259" key="GridCell.Tab.0.right" timestamp="1582546908806">
+    <state width="1793" height="257" key="GridCell.Tab.0.left/67.37.1853.1043@67.37.1853.1043" timestamp="1582635148327" />
+    <state width="1793" height="257" key="GridCell.Tab.0.right" timestamp="1582635148327">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="259" key="GridCell.Tab.0.right/67.37.1853.1043@67.37.1853.1043" timestamp="1582546908806" />
+    <state width="1793" height="257" key="GridCell.Tab.0.right/67.37.1853.1043@67.37.1853.1043" timestamp="1582635148327" />
     <state x="351" y="105" key="SettingsEditor" timestamp="1581947401309">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
     <state x="351" y="105" key="SettingsEditor/67.37.1853.1043@67.37.1853.1043" timestamp="1581947401309" />
-    <state x="548" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1582466527797">
+    <state x="548" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1582631784530">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state x="548" y="346" key="com.intellij.ide.util.TipDialog/67.37.1853.1043@67.37.1853.1043" timestamp="1582466527797" />
+    <state x="548" y="346" key="com.intellij.ide.util.TipDialog/67.37.1853.1043@67.37.1853.1043" timestamp="1582631784530" />
     <state x="426" y="154" width="1135" height="806" key="find.popup" timestamp="1582113496500">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>

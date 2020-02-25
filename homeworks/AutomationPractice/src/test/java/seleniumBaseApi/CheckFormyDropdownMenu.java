@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class CheckDropdownMenu {
+public class CheckFormyDropdownMenu {
 
     @Test
     public void verifyRedirectionLinksMatchOnesSpecified() throws InterruptedException {
