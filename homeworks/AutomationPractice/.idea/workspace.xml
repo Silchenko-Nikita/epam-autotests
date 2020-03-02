@@ -3,9 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="ed1dd487-5e1f-4aec-8865-0c32bd9c8309" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/CheckDropdownMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/CheckFormyDropdownMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckDropdownMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/CheckFormyButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/CheckFormyButtons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/CheckFormyCheckboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/CheckFormyCheckboxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/CheckFormyDropdownMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/Consts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/Consts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/variant3/CheckBbcArticlesNewsHeadlineTexts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/variant3/CheckBbcArticlesNewsHeadlineTexts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/variant3/CheckBbcFootballMatchesScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/variant3/CheckBbcFootballMatchesScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/variant3/Consts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/variant3/Consts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Email.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VarargExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VarargExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckEmailHappyPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckEmailHappyPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckEmailUnhappyPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckEmailUnhappyPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestVararg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestVararg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UiTestsCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UiTestsCases.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckFormyButtons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckFormyButtons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckFormyCheckboxes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckFormyCheckboxes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckFormyDropdownMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckFormyDropdownMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/Consts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/Consts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/variant3/CheckBbcArticlesNewsHeadlineTexts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/variant3/CheckBbcArticlesNewsHeadlineTexts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/variant3/CheckBbcFootballMatchesScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/variant3/CheckBbcFootballMatchesScore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/variant3/Consts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/variant3/Consts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/variant3/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/variant3/Utils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +64,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../homeworks/hw9" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="seleniumBaseApi" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckBbcFootballMatchesScore.checkMainArticleHeadlineText">
+  <component name="RunManager" selected="TestNG.CheckBbcFootballMatchesScore">
     <configuration name="CheckBbcArticlesNewsHeadlineTexts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
@@ -65,42 +90,6 @@
       <option name="PACKAGE_NAME" value="variant3" />
       <option name="MAIN_CLASS_NAME" value="variant3.CheckBbcArticlesNewsHeadlineTexts" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckBbcArticlesNewsHeadlineTexts.checkMainArticleHeadlineText" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="variant3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="variant3" />
-      <option name="MAIN_CLASS_NAME" value="variant3.CheckBbcArticlesNewsHeadlineTexts" />
-      <option name="METHOD_NAME" value="checkMainArticleHeadlineText" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckBbcArticlesNewsHeadlineTexts.checkSecondaryArticlesHeadlinesText" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="variant3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="variant3" />
-      <option name="MAIN_CLASS_NAME" value="variant3.CheckBbcArticlesNewsHeadlineTexts" />
-      <option name="METHOD_NAME" value="checkSecondaryArticlesHeadlinesText" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -124,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBbcFootballMatchesScore.checkMainArticleHeadlineText" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckBbcFootballMatchesScore.checkFootballMatchesScoreDetailView" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +123,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="variant3" />
       <option name="MAIN_CLASS_NAME" value="variant3.CheckBbcFootballMatchesScore" />
-      <option name="METHOD_NAME" value="checkMainArticleHeadlineText" />
+      <option name="METHOD_NAME" value="checkFootballMatchesScoreDetailView" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckBbcFootballMatchesScore.checkFootballMatchesScoreListView" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="variant3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="variant3" />
+      <option name="MAIN_CLASS_NAME" value="variant3.CheckBbcFootballMatchesScore" />
+      <option name="METHOD_NAME" value="checkFootballMatchesScoreListView" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckFormyButtons" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumBaseApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumBaseApi" />
+      <option name="MAIN_CLASS_NAME" value="seleniumBaseApi.CheckFormyButtons" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -144,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckBbcFootballMatchesScore.checkMainArticleHeadlineText" />
         <item itemvalue="TestNG.CheckBbcFootballMatchesScore" />
-        <item itemvalue="TestNG.CheckBbcArticlesNewsHeadlineTexts.checkSecondaryArticlesHeadlinesText" />
+        <item itemvalue="TestNG.CheckBbcFootballMatchesScore.checkFootballMatchesScoreListView" />
+        <item itemvalue="TestNG.CheckBbcFootballMatchesScore.checkFootballMatchesScoreDetailView" />
         <item itemvalue="TestNG.CheckBbcArticlesNewsHeadlineTexts" />
-        <item itemvalue="TestNG.CheckBbcArticlesNewsHeadlineTexts.checkMainArticleHeadlineText" />
+        <item itemvalue="TestNG.CheckFormyButtons" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +192,9 @@
       <workItem from="1582466531781" duration="69000" />
       <workItem from="1582540266541" duration="6656000" />
       <workItem from="1582631789183" duration="3354000" />
+      <workItem from="1582909413854" duration="9176000" />
+      <workItem from="1583062622767" duration="5866000" />
+      <workItem from="1583146033132" duration="7255000" />
     </task>
     <servers />
   </component>
@@ -175,41 +202,61 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="488" y="139" width="1052" height="839" key="#Project_Structure" timestamp="1582986868731">
+      <screen x="67" y="37" width="1853" height="1043" />
+    </state>
+    <state x="488" y="139" width="1052" height="839" key="#Project_Structure/67.37.1853.1043@67.37.1853.1043" timestamp="1582986868731" />
+    <state x="447" y="208" width="1171" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582987107763">
+      <screen x="67" y="37" width="1853" height="1043" />
+    </state>
+    <state x="447" y="208" width="1171" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.37.1853.1043@67.37.1853.1043" timestamp="1582987107763" />
+    <state x="699" y="304" width="656" height="513" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582987059723">
+      <screen x="67" y="37" width="1853" height="1043" />
+    </state>
+    <state x="699" y="304" width="656" height="513" key="#com.intellij.ide.util.TreeClassChooserDialog/67.37.1853.1043@67.37.1853.1043" timestamp="1582987059723" />
     <state x="673" y="388" width="641" height="354" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582297597217">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
     <state x="673" y="388" width="641" height="354" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.37.1853.1043@67.37.1853.1043" timestamp="1582297597217" />
-    <state width="1793" height="257" key="GridCell.Tab.0.bottom" timestamp="1582635148327">
+    <state x="723" y="258" width="530" height="598" key="FileChooserDialogImpl" timestamp="1583150586884">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="257" key="GridCell.Tab.0.bottom/67.37.1853.1043@67.37.1853.1043" timestamp="1582635148327" />
-    <state width="1793" height="257" key="GridCell.Tab.0.center" timestamp="1582635148327">
+    <state x="723" y="258" width="530" height="598" key="FileChooserDialogImpl/67.37.1853.1043@67.37.1853.1043" timestamp="1583150586884" />
+    <state width="1793" height="274" key="GridCell.Tab.0.bottom" timestamp="1583172916972">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="257" key="GridCell.Tab.0.center/67.37.1853.1043@67.37.1853.1043" timestamp="1582635148327" />
-    <state width="1793" height="257" key="GridCell.Tab.0.left" timestamp="1582635148327">
+    <state width="1793" height="274" key="GridCell.Tab.0.bottom/67.37.1853.1043@67.37.1853.1043" timestamp="1583172916972" />
+    <state width="1793" height="274" key="GridCell.Tab.0.center" timestamp="1583172916972">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="257" key="GridCell.Tab.0.left/67.37.1853.1043@67.37.1853.1043" timestamp="1582635148327" />
-    <state width="1793" height="257" key="GridCell.Tab.0.right" timestamp="1582635148327">
+    <state width="1793" height="274" key="GridCell.Tab.0.center/67.37.1853.1043@67.37.1853.1043" timestamp="1583172916972" />
+    <state width="1793" height="274" key="GridCell.Tab.0.left" timestamp="1583172916971">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="257" key="GridCell.Tab.0.right/67.37.1853.1043@67.37.1853.1043" timestamp="1582635148327" />
-    <state x="351" y="105" key="SettingsEditor" timestamp="1581947401309">
+    <state width="1793" height="274" key="GridCell.Tab.0.left/67.37.1853.1043@67.37.1853.1043" timestamp="1583172916971" />
+    <state width="1793" height="274" key="GridCell.Tab.0.right" timestamp="1583172916972">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state x="351" y="105" key="SettingsEditor/67.37.1853.1043@67.37.1853.1043" timestamp="1581947401309" />
-    <state x="548" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1582631784530">
+    <state width="1793" height="274" key="GridCell.Tab.0.right/67.37.1853.1043@67.37.1853.1043" timestamp="1583172916972" />
+    <state x="351" y="105" key="SettingsEditor" timestamp="1582987000527">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state x="548" y="346" key="com.intellij.ide.util.TipDialog/67.37.1853.1043@67.37.1853.1043" timestamp="1582631784530" />
+    <state x="351" y="105" key="SettingsEditor/67.37.1853.1043@67.37.1853.1043" timestamp="1582987000527" />
+    <state x="548" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1583146195088">
+      <screen x="67" y="37" width="1853" height="1043" />
+    </state>
+    <state x="548" y="346" key="com.intellij.ide.util.TipDialog/67.37.1853.1043@67.37.1853.1043" timestamp="1583146195088" />
     <state x="426" y="154" width="1135" height="806" key="find.popup" timestamp="1582113496500">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
     <state x="426" y="154" width="1135" height="806" key="find.popup/67.37.1853.1043@67.37.1853.1043" timestamp="1582113496500" />
-    <state x="67" y="203" width="1843" height="709" key="new project wizard" timestamp="1582466599722">
+    <state x="67" y="203" width="1843" height="709" key="new project wizard" timestamp="1582981359488">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state x="67" y="203" width="1843" height="709" key="new project wizard/67.37.1853.1043@67.37.1853.1043" timestamp="1582466599722" />
+    <state x="67" y="203" width="1843" height="709" key="new project wizard/67.37.1853.1043@67.37.1853.1043" timestamp="1582981359488" />
+    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1582987685163">
+      <screen x="67" y="37" width="1853" height="1043" />
+    </state>
+    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup/67.37.1853.1043@67.37.1853.1043" timestamp="1582987685163" />
   </component>
 </project>

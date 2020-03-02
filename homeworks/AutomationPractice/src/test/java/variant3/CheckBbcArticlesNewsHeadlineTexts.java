@@ -7,35 +7,47 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class CheckBbcArticlesNewsHeadlineTexts {
-    final String EXPECTED_MAIN_ARTICLE_HEADLINE_TEXT = "Coronavirus spread raises fears of pandemic";
-    final String[] EXPECTED_ARTICLES_HEADLINE_TEXT = {
+    private final String EXPECTED_MAIN_ARTICLE_HEADLINE_TEXT = "Coronavirus spread raises fears of pandemic";
+    private final String[] EXPECTED_ARTICLES_HEADLINE_TEXT = {
             "Trumps visit India's 'monument of love'",
             "'How Kobe Bryant inspired me'",
             "Inside Syria's final rebel stronghold",
             "'Fake jobs' trial begins for French ex-PM",
             "Assange data breach 'put lives at risk'",
     };
-    final String EXPECTED_FIRST_FOUND_BY_TAG_ARTICLE_HEADLINE_TEXT = "World";
+    private final String EXPECTED_FIRST_FOUND_BY_TAG_ARTICLE_HEADLINE_TEXT = "World";
+    private WebDriver driver;
 
-    final WebDriver driver = new ChromeDriver();
+    @BeforeClass
+    public void setUp() {
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+    }
 
-    public void navigateToBbcNewsPage() throws InterruptedException {
-        driver.navigate().to(Consts.BBC_URL);
+    @BeforeMethod
+    public void beforeMethod() {
+        driver.navigate().to(Consts.BBC_BASE_URL);
 
         WebElement newsLink = driver.findElement(
                 By.cssSelector(".orb-nav-newsdotcom > a"));
         newsLink.click();
+    }
 
-        Thread.sleep(1000);
+    @DataProvider(name="HeadlinesIndexes")
+    public Object[] headlinesProvider() {
+        Object[] res = new Object[5];
+        for (int i = 0; i < res.length; i++) {
+            res[i] = i;
+        }
+        return res;
     }
 
     @Test
-    public void checkMainArticleHeadlineText() throws InterruptedException {
-        navigateToBbcNewsPage();
-
+    public void checkMainArticleHeadlineText() {
         WebElement headline = driver.findElement(
                 By.cssSelector(".gs-c-promo-heading__title.gel-paragon-bold.nw-o-link-split__text"));
 
@@ -47,27 +59,19 @@ public class CheckBbcArticlesNewsHeadlineTexts {
                         " Actual headline: \"" + headlineText + "\"");
     }
 
-    @Test
-    public void checkSecondaryArticlesHeadlinesText() throws InterruptedException {
-        navigateToBbcNewsPage();
+    @Test(dataProvider = "HeadlinesIndexes")
+    public void checkSecondaryArticleHeadlineText(Integer headlineInd) {
+        String headlineText = driver.findElements(
+                By.cssSelector(".gs-c-promo-heading__title.gel-pica-bold.nw-o-link-split__text")).get(headlineInd).getText();
+        String expectedHeadlineText = EXPECTED_ARTICLES_HEADLINE_TEXT[headlineInd];
 
-        List<WebElement> headlines = driver.findElements(
-                By.cssSelector(".gs-c-promo-heading__title.gel-pica-bold.nw-o-link-split__text"));
-
-        for (int i = 0; i < 5; i++) {
-            String headlineText = headlines.get(i).getText();
-            String expectedHeadlineText = EXPECTED_ARTICLES_HEADLINE_TEXT[i];
-
-            Assert.assertEquals(headlineText, expectedHeadlineText,
-                    "News headline of " + (i + 1) + "'th article is expected to be: \"" + expectedHeadlineText + "\"." +
-                            " Actual headline: \"" + headlineText + "\"");
-        }
+        Assert.assertEquals(headlineText, expectedHeadlineText,
+                "News headline of " + (headlineInd + 1) + "'th article is expected to be: \"" + expectedHeadlineText + "\"." +
+                        " Actual headline: \"" + headlineText + "\"");
     }
 
     @Test
-    public void checkFirstArticleHeadlineTextFoundByMainArticleCategoryLinkText() throws InterruptedException {
-        navigateToBbcNewsPage();
-
+    public void checkFirstArticleHeadlineTextFoundByMainArticleCategoryLinkText() {
         WebElement mainArticleCategoryEl = driver.findElement(
                 By.cssSelector(".gs-c-section-link.gs-c-section-link--truncate.nw-c-section-link.nw-o-link.nw-o-link--no-visited-state > span"));
 
@@ -83,5 +87,10 @@ public class CheckBbcArticlesNewsHeadlineTexts {
                 "First article's found by category link headline " +
                         "text is expected to be: \"" + EXPECTED_FIRST_FOUND_BY_TAG_ARTICLE_HEADLINE_TEXT + "\"." +
                         " Actual headline: \"" + firstArticleHeadlineText + "\"");
+    }
+
+    @AfterClass
+    public void shutDown() {
+        driver.quit();
     }
 }
