@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed1dd487-5e1f-4aec-8865-0c32bd9c8309" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/formyPageObject/pages/ButtonsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/formyPageObject/pages/PageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/CheckFormyButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/CheckFormyButtons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/CheckFormyCheckboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/CheckFormyCheckboxes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/CheckFormyDropdownMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/Consts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/Consts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/variant3/CheckBbcArticlesNewsHeadlineTexts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/variant3/CheckBbcArticlesNewsHeadlineTexts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/variant3/CheckBbcFootballMatchesScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/variant3/CheckBbcFootballMatchesScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/variant3/Consts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/variant3/Consts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Email.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/VarargExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VarargExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckEmailHappyPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckEmailHappyPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckEmailUnhappyPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckEmailUnhappyPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestVararg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestVararg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UiTestsCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UiTestsCases.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckFormyButtons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckFormyButtons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckFormyCheckboxes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckFormyCheckboxes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckFormyDropdownMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/CheckFormyDropdownMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/Consts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/Consts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/variant3/CheckBbcArticlesNewsHeadlineTexts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/variant3/CheckBbcArticlesNewsHeadlineTexts.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/variant3/CheckBbcFootballMatchesScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/variant3/CheckBbcFootballMatchesScore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/variant3/Consts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/variant3/Consts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/variant3/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/variant3/Utils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../homeworks/hw9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/formyPageObject" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -74,21 +56,28 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/formyPageObject" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="formyPageObject.tests" />
+      <recent name="formyPageObject" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="seleniumBaseApi" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckBbcFootballMatchesScore">
-    <configuration name="CheckBbcArticlesNewsHeadlineTexts" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.WebFormTest">
+    <configuration name="ButtonsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variant3.*" />
+          <option name="PATTERN" value="formyPageObject.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="variant3" />
-      <option name="MAIN_CLASS_NAME" value="variant3.CheckBbcArticlesNewsHeadlineTexts" />
+      <option name="PACKAGE_NAME" value="formyPageObject.tests" />
+      <option name="MAIN_CLASS_NAME" value="formyPageObject.tests.ButtonsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -96,16 +85,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBbcFootballMatchesScore" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckboxesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variant3.*" />
+          <option name="PATTERN" value="formyPageObject.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="variant3" />
-      <option name="MAIN_CLASS_NAME" value="variant3.CheckBbcFootballMatchesScore" />
+      <option name="PACKAGE_NAME" value="formyPageObject.tests" />
+      <option name="MAIN_CLASS_NAME" value="formyPageObject.tests.CheckboxesTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -113,52 +102,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBbcFootballMatchesScore.checkFootballMatchesScoreDetailView" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variant3.*" />
+          <option name="PATTERN" value="formyPageObject.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="variant3" />
-      <option name="MAIN_CLASS_NAME" value="variant3.CheckBbcFootballMatchesScore" />
-      <option name="METHOD_NAME" value="checkFootballMatchesScoreDetailView" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="formyPageObject.tests" />
+      <option name="MAIN_CLASS_NAME" value="formyPageObject.tests.DropdownTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBbcFootballMatchesScore.checkFootballMatchesScoreListView" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Runner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variant3.*" />
+          <option name="PATTERN" value="linkedInCucumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="variant3" />
-      <option name="MAIN_CLASS_NAME" value="variant3.CheckBbcFootballMatchesScore" />
-      <option name="METHOD_NAME" value="checkFootballMatchesScoreListView" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="linkedInCucumber" />
+      <option name="MAIN_CLASS_NAME" value="linkedInCucumber.Runner" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckFormyButtons" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumBaseApi.*" />
+          <option name="PATTERN" value="formyPageObject.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumBaseApi" />
-      <option name="MAIN_CLASS_NAME" value="seleniumBaseApi.CheckFormyButtons" />
+      <option name="PACKAGE_NAME" value="formyPageObject.tests" />
+      <option name="MAIN_CLASS_NAME" value="formyPageObject.tests.WebFormTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -168,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckBbcFootballMatchesScore" />
-        <item itemvalue="TestNG.CheckBbcFootballMatchesScore.checkFootballMatchesScoreListView" />
-        <item itemvalue="TestNG.CheckBbcFootballMatchesScore.checkFootballMatchesScoreDetailView" />
-        <item itemvalue="TestNG.CheckBbcArticlesNewsHeadlineTexts" />
-        <item itemvalue="TestNG.CheckFormyButtons" />
+        <item itemvalue="TestNG.WebFormTest" />
+        <item itemvalue="TestNG.Runner" />
+        <item itemvalue="TestNG.DropdownTest" />
+        <item itemvalue="TestNG.ButtonsTest" />
+        <item itemvalue="TestNG.CheckboxesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -222,22 +209,26 @@
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
     <state x="723" y="258" width="530" height="598" key="FileChooserDialogImpl/67.37.1853.1043@67.37.1853.1043" timestamp="1583150586884" />
-    <state width="1793" height="274" key="GridCell.Tab.0.bottom" timestamp="1583172916972">
+    <state width="1793" height="274" key="GridCell.Tab.0.bottom" timestamp="1583247125468">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="274" key="GridCell.Tab.0.bottom/67.37.1853.1043@67.37.1853.1043" timestamp="1583172916972" />
-    <state width="1793" height="274" key="GridCell.Tab.0.center" timestamp="1583172916972">
+    <state width="1793" height="274" key="GridCell.Tab.0.bottom/67.37.1853.1043@67.37.1853.1043" timestamp="1583247125468" />
+    <state width="1793" height="274" key="GridCell.Tab.0.center" timestamp="1583247125467">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="274" key="GridCell.Tab.0.center/67.37.1853.1043@67.37.1853.1043" timestamp="1583172916972" />
-    <state width="1793" height="274" key="GridCell.Tab.0.left" timestamp="1583172916971">
+    <state width="1793" height="274" key="GridCell.Tab.0.center/67.37.1853.1043@67.37.1853.1043" timestamp="1583247125467" />
+    <state width="1793" height="274" key="GridCell.Tab.0.left" timestamp="1583247125467">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="274" key="GridCell.Tab.0.left/67.37.1853.1043@67.37.1853.1043" timestamp="1583172916971" />
-    <state width="1793" height="274" key="GridCell.Tab.0.right" timestamp="1583172916972">
+    <state width="1793" height="274" key="GridCell.Tab.0.left/67.37.1853.1043@67.37.1853.1043" timestamp="1583247125467" />
+    <state width="1793" height="274" key="GridCell.Tab.0.right" timestamp="1583247125467">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="274" key="GridCell.Tab.0.right/67.37.1853.1043@67.37.1853.1043" timestamp="1583172916972" />
+    <state width="1793" height="274" key="GridCell.Tab.0.right/67.37.1853.1043@67.37.1853.1043" timestamp="1583247125467" />
+    <state x="411" y="133" width="1155" height="848" key="Maven.ArtifactSearchDialog" timestamp="1583244819678">
+      <screen x="67" y="37" width="1853" height="1043" />
+    </state>
+    <state x="411" y="133" width="1155" height="848" key="Maven.ArtifactSearchDialog/67.37.1853.1043@67.37.1853.1043" timestamp="1583244819678" />
     <state x="351" y="105" key="SettingsEditor" timestamp="1582987000527">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
@@ -258,5 +249,17 @@
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
     <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup/67.37.1853.1043@67.37.1853.1043" timestamp="1582987685163" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pageObjectPractice/pages/ReceiptPage.java</url>
+          <line>2</line>
+          <log-expression expression="&#10;public class ReceiptPage {&#10;}" language="JAVA" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
