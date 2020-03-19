@@ -31,7 +31,7 @@ public class WebFormPage extends PageObject {
         super(driver);
     }
 
-    public void enterName(String firstName, String lastName){
+    public void enterFullName(String firstName, String lastName){
         this.firstName.clear();
         this.firstName.sendKeys(firstName);
 

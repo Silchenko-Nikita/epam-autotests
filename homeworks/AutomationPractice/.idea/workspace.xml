@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed1dd487-5e1f-4aec-8865-0c32bd9c8309" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/formyPageObject/pages/ButtonsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/formyPageObject/pages/PageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/variant3/CheckBbcFootballMatchesScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/variant3/CheckBbcFootballMatchesScore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/formyPageObject/pages/WebFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/formyPageObject/pages/WebFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/formyPageObject/tests/ButtonsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/formyPageObject/tests/ButtonsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/formyPageObject/tests/CheckboxesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/formyPageObject/tests/CheckboxesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/formyPageObject/tests/DropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/formyPageObject/tests/DropdownTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/formyPageObject/tests/WebFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/formyPageObject/tests/WebFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/linkedInCucumber/stepDefinition/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkedInCucumber/stepDefinition/Steps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
       <recent name="seleniumBaseApi" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WebFormTest">
+  <component name="RunManager" selected="TestNG.Runner">
     <configuration name="ButtonsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WebFormTest" />
         <item itemvalue="TestNG.Runner" />
+        <item itemvalue="TestNG.WebFormTest" />
         <item itemvalue="TestNG.DropdownTest" />
-        <item itemvalue="TestNG.ButtonsTest" />
         <item itemvalue="TestNG.CheckboxesTest" />
+        <item itemvalue="TestNG.ButtonsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +184,8 @@
       <workItem from="1582909413854" duration="9176000" />
       <workItem from="1583062622767" duration="5866000" />
       <workItem from="1583146033132" duration="7255000" />
+      <workItem from="1583661968977" duration="110000" />
+      <workItem from="1584612845599" duration="2798000" />
     </task>
     <servers />
   </component>
@@ -209,22 +213,22 @@
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
     <state x="723" y="258" width="530" height="598" key="FileChooserDialogImpl/67.37.1853.1043@67.37.1853.1043" timestamp="1583150586884" />
-    <state width="1793" height="274" key="GridCell.Tab.0.bottom" timestamp="1583247125468">
+    <state width="1793" height="272" key="GridCell.Tab.0.bottom" timestamp="1584616446842">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="274" key="GridCell.Tab.0.bottom/67.37.1853.1043@67.37.1853.1043" timestamp="1583247125468" />
-    <state width="1793" height="274" key="GridCell.Tab.0.center" timestamp="1583247125467">
+    <state width="1793" height="272" key="GridCell.Tab.0.bottom/67.37.1853.1043@67.37.1853.1043" timestamp="1584616446842" />
+    <state width="1793" height="272" key="GridCell.Tab.0.center" timestamp="1584616446841">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="274" key="GridCell.Tab.0.center/67.37.1853.1043@67.37.1853.1043" timestamp="1583247125467" />
-    <state width="1793" height="274" key="GridCell.Tab.0.left" timestamp="1583247125467">
+    <state width="1793" height="272" key="GridCell.Tab.0.center/67.37.1853.1043@67.37.1853.1043" timestamp="1584616446841" />
+    <state width="1793" height="272" key="GridCell.Tab.0.left" timestamp="1584616446841">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="274" key="GridCell.Tab.0.left/67.37.1853.1043@67.37.1853.1043" timestamp="1583247125467" />
-    <state width="1793" height="274" key="GridCell.Tab.0.right" timestamp="1583247125467">
+    <state width="1793" height="272" key="GridCell.Tab.0.left/67.37.1853.1043@67.37.1853.1043" timestamp="1584616446841" />
+    <state width="1793" height="272" key="GridCell.Tab.0.right" timestamp="1584616446842">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="274" key="GridCell.Tab.0.right/67.37.1853.1043@67.37.1853.1043" timestamp="1583247125467" />
+    <state width="1793" height="272" key="GridCell.Tab.0.right/67.37.1853.1043@67.37.1853.1043" timestamp="1584616446842" />
     <state x="411" y="133" width="1155" height="848" key="Maven.ArtifactSearchDialog" timestamp="1583244819678">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
@@ -233,18 +237,18 @@
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
     <state x="351" y="105" key="SettingsEditor/67.37.1853.1043@67.37.1853.1043" timestamp="1582987000527" />
-    <state x="548" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1583146195088">
+    <state x="548" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1583661964507">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state x="548" y="346" key="com.intellij.ide.util.TipDialog/67.37.1853.1043@67.37.1853.1043" timestamp="1583146195088" />
+    <state x="548" y="346" key="com.intellij.ide.util.TipDialog/67.37.1853.1043@67.37.1853.1043" timestamp="1583661964507" />
     <state x="426" y="154" width="1135" height="806" key="find.popup" timestamp="1582113496500">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
     <state x="426" y="154" width="1135" height="806" key="find.popup/67.37.1853.1043@67.37.1853.1043" timestamp="1582113496500" />
-    <state x="67" y="203" width="1843" height="709" key="new project wizard" timestamp="1582981359488">
+    <state x="67" y="203" width="1843" height="709" key="new project wizard" timestamp="1583664604528">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state x="67" y="203" width="1843" height="709" key="new project wizard/67.37.1853.1043@67.37.1853.1043" timestamp="1582981359488" />
+    <state x="67" y="203" width="1843" height="709" key="new project wizard/67.37.1853.1043@67.37.1853.1043" timestamp="1583664604528" />
     <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1582987685163">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>

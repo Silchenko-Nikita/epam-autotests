@@ -1,20 +1,19 @@
 package formyPageObject.tests;
 
 import formyPageObject.Consts;
-import formyPageObject.pages.DropdownPage;
 import formyPageObject.pages.ThanksForSubmitPage;
 import formyPageObject.pages.WebFormPage;
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pageObjectPractice.pages.ReceiptPage;
-import pageObjectPractice.pages.SignUpPage;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 public class WebFormTest extends FunctionalTest {
+    private static String SUBMIT_EXPECTED_HEADER = "Thanks for submitting your form";
+
     @DataProvider(name="FormData")
     public Object[][] formDataProvider() {
         return new Object[][] {
@@ -30,21 +29,23 @@ public class WebFormTest extends FunctionalTest {
     }
 
     @Test(dataProvider="FormData")
-    public void fillAndSubmitForm(String[] data) {
+    public void fillAndSubmitForm(String firstName, String lastName, String jobTitle,
+                                  String educationLevelRadiobuttonId, String sexCheckboxId,
+                                  String levelOfExperience, String date) {
         WebFormPage webFormPage = new WebFormPage(driver);
         assertTrue(webFormPage.isInitialized());
 
-        webFormPage.enterName(data[0], data[1]);
-        webFormPage.enterJobData(data[2], data[5]);
-        webFormPage.enterDate(data[6]);
+        webFormPage.enterFullName(firstName, lastName);
+        webFormPage.enterJobData(jobTitle, levelOfExperience);
+        webFormPage.enterDate(date);
 
-        driver.findElement(By.id(data[3])).click();
-        driver.findElement(By.id(data[4])).click();
+        driver.findElement(By.id(educationLevelRadiobuttonId)).click();
+        driver.findElement(By.id(sexCheckboxId)).click();
 
         ThanksForSubmitPage thanksForSubmitPage = webFormPage.submit();
         assertTrue(thanksForSubmitPage.isInitialized());
 
-        assertEquals(thanksForSubmitPage.confirmationHeader(), "Thanks for submitting your form",
+        assertEquals(thanksForSubmitPage.confirmationHeader(), SUBMIT_EXPECTED_HEADER,
                 "Headline text on thanking for form submission page doesn't equal expected one");
     }
 }
